@@ -1,0 +1,37 @@
+# passport-checker
+
+This ruby library aims to help validating passport numbers in the format described here:
+
+  http://en.wikipedia.org/wiki/Machine-readable_passport
+
+It's often useful for age verification purposes.
+
+## Resources
+
+https://github.com/saulabs/
+http://saulabs.net/passport-checker
+
+
+## Contributing to passport-checker
+ 
+* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
+* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
+* Fork the project
+* Start a feature/bugfix branch
+* Commit and push until you are happy with your contribution
+* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
+* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+
+## TODO
+
+* Implement full format as described here: http://en.wikipedia.org/wiki/Machine-readable_passport
+* Remove ActiveSupport gem dependency
+* Add more example test (need to generate those)
+* Make legal age configurable
+* Add list of valid country codes
+
+## Copyright
+
+Copyright (c) 2010 Dieter Komendera, Martin Kavalar. See LICENSE.txt for
+further details.
+
